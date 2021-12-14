@@ -1,16 +1,6 @@
 # Part 1 A
-## 1. How can you isolate (or group) the transactions of each cardholder?
-SELECT column1, column2, ...
-FROM table_name
-WHERE condition;
 
-
-SELECT column_name(s)
-FROM table_name
-WHERE condition
-GROUP BY column_name(s)
-ORDER BY column_name(s);
-
+<img width="886" alt="Screen Shot 2021-12-13 at 10 34 07 PM" src="https://user-images.githubusercontent.com/87039833/146070412-2c631340-a9a5-4fbc-bed8-466e38316b36.png">
 
 ## 2. Count the transactions that are less than $2.00 per cardholder.
 SELECT count(amount)
